@@ -2,10 +2,9 @@ package com.JWTTest.Controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @Controller
-public class CustomeLogin {
+public class CustomLogin {
 	
 	@GetMapping("/customlogin")
 	public String showmeLoginpage() {

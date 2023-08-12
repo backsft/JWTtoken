@@ -8,7 +8,7 @@ public class JwtTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JwtTestApplication.class, args);
-		System.out.println("program started now");
+		System.out.println("program started now testing");
 	}
 
 }
